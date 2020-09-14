@@ -73,7 +73,7 @@ a:hover {
 }
 .subvisual h1 {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   color: #000;
   line-height: 200px;
   font-weight: normal;
@@ -248,7 +248,7 @@ footer .content-wrapper {
   color: #444;
   transition: .3s ease all;
 }
-
+/* ここからスマホのレスポンシブ  */
 @media screen and (max-width:767px) {
 /* ここからヘッダー  */
 .header h1 {
@@ -265,21 +265,21 @@ footer .content-wrapper {
   font-size: 1.5rem;
 }
 .bg1 {
-  height: 105px;
-  width: 26%;
+  height: 140px;
+  width: 40%;
   border-radius: 50%;
   position: absolute;
-  top: 2%;
-  left: 21px;
+  top: -2%;
+  left: -2px;
   z-index: -1;
 }
 .bg2 {
-  height: 105px;
-  width: 26%;
+  height: 140px;
+  width: 40%;
   border-radius: 50%;
   position: absolute;
-  top: 40%;
-  left: 230px;
+  top: 34%;
+  left: 221px;
   z-index: -1;
 }
 /* ここからフッター */
@@ -305,8 +305,8 @@ padding: 20px 0;
 font-size: 0.05rem;
 }
 .bg3 {
-  height: 105px;
-  width: 26%;
+  height: 140px;
+  width: 40%;
   border-radius: 50%;
   position: absolute;
   top: 282%;
@@ -314,12 +314,12 @@ font-size: 0.05rem;
   z-index: -1;
 }
 .bg4 {
-  height: 105px;
-  width: 26%;
+  height: 140px;
+  width: 40%;
   border-radius: 50%;
   position: absolute;
   top: 313%;
-  left: 225px;
+  left: 234px;
   z-index: -1;
 }
 /* ここからメイン */
@@ -398,21 +398,21 @@ transition: .3s ease all;
     display: none; 
   }
   .bg1 {
-    height: 247px;
+    height: 200px;
     width: 26%;
     border-radius: 50%;
     position: absolute;
-    top: -2%;
-    left: 26px;
+    top: -5%;
+    left: -4px;
     z-index: -1;
   }
   .bg2 {
-    height: 247px;
+    height: 200px;
     width: 26%;
     border-radius: 50%;
     position: absolute;
-    top: 14%;
-    left: 742px;
+    top: 25%;
+    left: 640px;
     z-index: -1;
   }
   /* ここからフッター */
@@ -442,21 +442,21 @@ transition: .3s ease all;
   font-size: 0.05rem;
  }
  .bg3 {
-  height: 247px;
+  height: 200px;
   width: 26%;
   border-radius: 50%;
   position: absolute;
-  top: 100%;
-  left: 37px;
+  top: 138%;
+  left: 13px;
   z-index: -1;
 }
 .bg4 {
-  height: 247px;
+  height: 200px;
   width: 26%;
   border-radius: 50%;
   position: absolute;
-  top: 112%;
-  left: 679px;
+  top: 162%;
+  left: 568px;
   z-index: -1;
 }
  /* ここからメイン */
@@ -476,4 +476,13 @@ transition: .3s ease all;
  .form dl.multi-text dd textarea {
    width: 500px;
  }
+ .form dl.name dd input {
+  width: 150px;
+}
+.form dl.furigana dd input {
+  width: 150px;
+}
+.form dl.tel dd input {
+  width: 150px;
+}
 }
